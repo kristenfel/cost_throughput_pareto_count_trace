@@ -1,11 +1,11 @@
-# adrank_jd209
+# cost_throughput_pareto_count_trace
 
 **追溯广告召回与排序工程师·成本与吞吐的帕累托边界里每一份贡献来自哪里。**
 
-`adrank_jd209` —— 统计各来源片段的贡献量与占比，标出广告召回与排序工程师·成本与吞吐的帕累托边界上最主要的来源
+`cost_throughput_pareto_count_trace` —— 统计各来源片段的贡献量与占比，标出广告召回与排序工程师·成本与吞吐的帕累托边界上最主要的来源
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`adrank_jd209.py` 拷走就能用
+- 单文件，`cost_throughput_pareto_count_trace.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install kristenfel-adrank_jd209
+pip install kristenfel-cost_throughput_pareto_count_trace
 ```
 
 装完直接用命令名调用：
 
 ```bash
-adrank_jd209 --help
+cost_throughput_pareto_count_trace --help
 ```
 
-也可以不用安装，直接把 `adrank_jd209.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `cost_throughput_pareto_count_trace.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ adrank_jd209 --help
 ## 用法
 
 ```bash
-python adrank_jd209.py --file input.txt
-python adrank_jd209.py --text "示例内容"
-python adrank_jd209.py --file input.txt --json
+python cost_throughput_pareto_count_trace.py --file input.txt
+python cost_throughput_pareto_count_trace.py --text "示例内容"
+python cost_throughput_pareto_count_trace.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python adrank_jd209.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_adrank_jd209.py
+python test_cost_throughput_pareto_count_trace.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_adrank_jd209.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/kristenfel/adrank_jd209>
+- GitHub 仓库：<https://github.com/kristenfel/cost_throughput_pareto_count_trace>
 
 ---
 
@@ -79,7 +79,7 @@ python test_adrank_jd209.py
 kristenfel 做广告召回与排序工程师·成本与吞吐的帕累托边界相关的问题，方向对标无问芯穹的专家广告召回与排序工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://kristenfel.github.io>
-- 仓库：<https://github.com/kristenfel/adrank_jd209>
+- 仓库：<https://github.com/kristenfel/cost_throughput_pareto_count_trace>
 
 ## 许可
 
